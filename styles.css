@@ -1,7 +1,7 @@
 .word-line {
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 120px;
+  font-size: 220px;
   margin-bottom: 20px;
 }
 .fd {
@@ -17,7 +17,7 @@
 /*      */
 
 .letter {
-  font-size: 300px; /* Увеличение размера букв в 3 раза */
+  font-size: 500px; /* Увеличение размера букв в 3 раза */
   display: inline-block;
   transition: font-size 0.3s;
 }
