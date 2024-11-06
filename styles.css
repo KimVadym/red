@@ -32,6 +32,13 @@
   font-size: 220px;
 }
 
+/* ==-=--==--== */
+
+.title {
+  font-size: larger;
+  font-weight: 500;
+  font-style: italic;
+}
 .menu {
   list-style: none;
   display: flex;
