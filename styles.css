@@ -33,17 +33,25 @@
 }
 
 /* ==-=--==--== */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 header {
   background-color: #e9c1c1;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .title {
-  margin: 0 auto;
-  align-items: center;
   font-size: 50px;
   font-weight: 500;
   font-style: italic;
   color: rosybrown;
+  display: flex;
+  justify-content: center;
 }
 .menu {
   list-style: none;
