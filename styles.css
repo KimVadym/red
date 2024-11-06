@@ -25,3 +25,9 @@
 .full-word {
   font-size: 60px; /* Размер всего слова */
 }
+
+.cv {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 220px;
+}

@@ -22,7 +22,7 @@ const examples = [
   { question: "3 + 4", answer: 3 + 4 }
 ];
 
-const outputDiv = document.getElementById('out');
+const ouDiv = document.getElementById('ou');
 
 // Функция для отображения примеров с задержкой на ответ
 function displayExamples() {
@@ -31,7 +31,7 @@ function displayExamples() {
       const exampleDiv = document.createElement('div');
       exampleDiv.className = 'example';
       exampleDiv.innerHTML = `${example.question} = ?`;
-      outputDiv.appendChild(exampleDiv);
+      ouDiv.appendChild(exampleDiv);
       
       // Показываем ответ через 5 секунд
       setTimeout(() => {
