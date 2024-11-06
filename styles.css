@@ -1,0 +1,15 @@
+.word-line {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.fd {
+  width: 1200px;
+  background-color: rgb(197, 240, 96);
+  margin: 0 auto;
+  padding: 20px;
+}
+.v {
+  background-color: rgb(74, 147, 248);
+}
