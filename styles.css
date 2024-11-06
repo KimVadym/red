@@ -31,3 +31,20 @@
   font-weight: 300;
   font-size: 220px;
 }
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+a {
+  text-decoration: none;
+}
+.menu_list {
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #58bd3f;
+}
