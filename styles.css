@@ -34,10 +34,16 @@
 
 /* ==-=--==--== */
 
+header {
+  background-color: #e9c1c1;
+}
 .title {
-  font-size: larger;
+  margin: 0 auto;
+  align-items: center;
+  font-size: 50px;
   font-weight: 500;
   font-style: italic;
+  color: rosybrown;
 }
 .menu {
   list-style: none;
