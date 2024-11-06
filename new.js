@@ -19,16 +19,19 @@ function displayWord(word) {
   function displayNextLetter() {
     if (letterIndex < word.length) {
       const letter = word[letterIndex];
-      wordLine.innerHTML += letter + " ";
+      const letterSpan = document.createElement('span');
+      letterSpan.className = 'letter';
+      letterSpan.textContent = letter;
+      wordLine.appendChild(letterSpan);
       speakText(letter); // Озвучиваем букву
       letterIndex++;
-      setTimeout(displayNextLetter, 2000); // Задержка 1 секунда между буквами
+      setTimeout(displayNextLetter, 1000); // Задержка 1 секунда между буквами
     } else {
       // После букв показываем и озвучиваем всё слово
       setTimeout(() => {
         wordLine.innerHTML = word;
         speakText(word); // Озвучиваем всё слово
-      }, 500);
+      }, 2000);
     }
   }
 

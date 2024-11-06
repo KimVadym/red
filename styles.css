@@ -13,3 +13,15 @@
 .v {
   background-color: rgb(74, 147, 248);
 }
+
+/*      */
+
+.letter {
+  font-size: 150px; /* Увеличение размера букв в 3 раза */
+  display: inline-block;
+  transition: font-size 0.3s;
+}
+
+.full-word {
+  font-size: 60px; /* Размер всего слова */
+}
